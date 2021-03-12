@@ -1,0 +1,81 @@
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70vh;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: 100%;
+}
+
+.top .socials img {
+  margin-top: 24px;
+  width: 15px;
+  height: 15px;
+}
+
+.top .title {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.top .title h2 {
+  letter-spacing: 0.28em;
+  margin: 0;
+  font-size: 30px;
+}
+
+.top .title h1 {
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 120px;
+}
+
+.top .scrollbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.top .scrollbar .bar {
+  border-radius: 5px;
+  width: 1px;
+  height: 535px;
+  background: white;
+  position: relative;
+  opacity: 0.5;
+}
+
+.top .scrollbar .bar .posBar {
+  opacity: 1;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 70%;
+  right: calc(50% - 2px);
+  width: 4px;
+  height: 170px;
+  background: white;
+}
+/*# sourceMappingURL=top.css.map */

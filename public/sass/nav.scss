@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem 0 2rem;
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+        img {
+            margin-right: 0.5rem;
+            width: 35px;
+            height: 27px;
+            animation: logo 5s infinite linear;
+        }
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            font-weight: 600;
+            font-size: 18px;
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-right: 70px;
+            }
+        }
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: end;
+        width: 30px;
+        height: 30px;
+        .barre1 {
+            background: white;
+            width: 30px;
+            height: 3px;
+            border-radius: 5px;
+        }
+        .barre2 {
+            background: white;
+            width: 30px;
+            height: 3px;
+            border-radius: 5px;
+        }
+        .barre3 {
+            background: white;
+            width: 22px;
+            height: 3px;
+            border-radius: 5px;
+        }
+    }
+}
+
+@keyframes logo {
+    0% {
+        transform: rotateY(0deg);
+        ;
+    }
+    33% {
+        transform: rotateY(360deg);
+        ;
+    }
+    100% {
+        transform: rotateY(0deg);
+        ;
+    }
+}

@@ -1,0 +1,55 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    color: white;
+    align-items: center;
+    .socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 100%;
+        img {
+            margin-top: 24px;
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .title {
+        text-align: center;
+        opacity: 0.7;
+        h2 {
+            letter-spacing: 0.28em;
+            margin: 0;
+            font-size: 30px;
+        }
+        h1 {
+            margin-top: 12px;
+            font-weight: 800;
+            font-size: 120px;
+        }
+    }
+    .scrollbar {
+        height: 100%;
+        display: flex;
+        align-items: end;
+        .bar {
+            border-radius: 5px;
+            width: 1px;
+            height: 535px;
+            background: white;
+            position: relative;
+            opacity: 0.5;
+            .posBar {
+                opacity: 1;
+                border-radius: 5px;
+                position: absolute;
+                bottom: 70%;
+                right: calc(50% - 2px);
+                width: 4px;
+                height: 170px;
+                background: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 2rem 0 2rem;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 21px;
+}
+
+nav .logo img {
+  margin-right: 0.5rem;
+  width: 35px;
+  height: 27px;
+  -webkit-animation: logo 5s infinite linear;
+          animation: logo 5s infinite linear;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav ul li:nth-child(1), nav ul li:nth-child(2) {
+  margin-right: 70px;
+}
+
+nav .hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 30px;
+  height: 30px;
+}
+
+nav .hamburger .barre1 {
+  background: white;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+}
+
+nav .hamburger .barre2 {
+  background: white;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+}
+
+nav .hamburger .barre3 {
+  background: white;
+  width: 22px;
+  height: 3px;
+  border-radius: 5px;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  33% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes logo {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  33% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+/*# sourceMappingURL=nav.css.map */
